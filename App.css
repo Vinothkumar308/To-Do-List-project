@@ -1,0 +1,102 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+body{
+    width:100vw;
+    height:100vh;
+    background-color:rgb(45, 45, 77);
+}
+.con1{
+    background:transparent;
+    width:300px;
+    height:70px;
+    padding:10px;
+}
+.heading{
+    color:tomato;
+    font-weight: 600;
+    margin-bottom:10px;
+    width: fit-content;
+    border-bottom: 2px dashed;
+    padding-bottom: 3px;
+}
+.list-container{
+    display:flex;
+    gap:5px;
+    margin-bottom:5px;
+}
+.list-container>input{
+   padding:3px;
+   outline:none;
+   border-radius:2px;
+   font-size:16px;
+}
+.list-container button{
+    background-color:rgb(81, 127, 212);
+    font-size:15px;
+    text-transform:capitalize;
+    color:white;
+    padding:5px 8px;
+    outline:none;
+    border:none;
+    border-radius:3px;
+}
+.con2{
+    padding:10px;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    width:300px;
+}
+.list-heading{
+    color:rgb(214, 212, 212);
+    text-shadow:2px 2px 3px grey;
+    text-transform:capitalize;
+    font-size:20px;
+    margin-bottom:10px;
+    border-bottom: 2px dashed white;
+    padding-bottom: 8px;
+    width: fit-content;
+}
+.fle{
+    background-color: white;
+    padding:10px;
+    width:100%;
+}
+.head{
+    color:rgb(201, 49, 49);
+    text-transform: capitalize;
+    margin-bottom:10px;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    row-gap:5px;
+}
+.flex div>label{
+    text-transform: capitalize;
+    padding:5px 2px;
+    flex:1;
+}
+.flex div{
+    display: flex;
+    justify-content: start;
+    column-gap:4px;
+}
+.flex label:hover{
+    background-color: rgb(167, 163, 163);
+}
+.flex div>button{
+    border: none;
+    outline: none;
+    color: black;
+    background: none;
+    font-size: 14px;
+    font-weight: 600;
+}
+.line{
+    text-decoration: line-through;
+}
